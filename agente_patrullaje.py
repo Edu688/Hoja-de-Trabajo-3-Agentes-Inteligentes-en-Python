@@ -31,7 +31,7 @@ class AgentePatrullaje:
                 self.posicion_actual = 1
                 self.direccion = 1
             
-            time.sleep(1)  # Simula el tiempo entre movimientos
+            time.sleep(1) 
 
 # Definir una ruta de patrullaje
 ruta_definida = [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0)]
