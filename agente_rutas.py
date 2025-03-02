@@ -45,7 +45,7 @@ matriz_recompensas = np.array([
     [3, 6, 5, 2, 9]
 ])
 
-inicio = (0, 0)  # Posición inicial
+inicio = (0, 0)  
 meta = (4, 4)  # Destino
 
 # Crear y ejecutar el agente de selección de rutas
