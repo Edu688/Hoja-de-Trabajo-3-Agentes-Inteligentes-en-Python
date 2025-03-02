@@ -18,7 +18,7 @@ class AgenteExplorador:
                 self.posicion_actual = nueva_pos
                 self.visitados.add(nueva_pos)
                 return nueva_pos
-        return None  # Si no hay movimientos posibles, el agente se detiene
+        return None  
 
     def es_valido(self, posicion):
         """Verifica si la posición está dentro de los límites y no ha sido visitada."""
